@@ -1,0 +1,33 @@
+.conversation-list{
+    overflow-y: auto;
+    height: calc(100% - 7.2rem);
+}
+
+.single-conversation-container{
+    width: 100%;
+}
+.single-conversation-container:hover{
+    background-color: #ededed;
+}
+.details-list{
+    display: inline-block;
+
+}
+
+.preview-truncate-message{
+ margin-bottom: 1rem;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ width: 100%;
+ font-size: 0.8rem;
+ opacity: 0.7;
+}
+.conversation-list-avatar{
+    margin:auto
+}
+
+.last-message-date{
+    font-size: 0.8rem;
+ opacity: 0.7;
+}
