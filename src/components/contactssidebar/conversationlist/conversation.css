@@ -1,7 +1,9 @@
 .conversation-list{
-    position: relative;
+    position: absolute;
     overflow-y: auto;
-    height: calc(100% - 7.2rem);
+    max-height: calc(100% - 7.7rem);
+    border-top: 1px solid rgb(214, 214, 214);
+    top: 7.7rem
 }
 
 .single-conversation-container{

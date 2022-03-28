@@ -4,21 +4,28 @@
 
 .contacts-side-bar {
     background-color: #fff;
+    max-height: 100vh;
     min-height: 100vh;
-    border-right: 1px solid black;
+    margin-right: 0px !important;
     padding-right: 0 !important;
+    position:relative;
+    border-right: 1px solid black;
+    
 }
 
 .coversation-details {
     background-color:#e5ddd5;
+    max-height: 100vh;
     min-height: 100vh;
     position: relative;
     ;
     border-bottom: 3px solid #25D366
 ;
-background: url('../assets/whatsapp-pattern.jpg');
+background: url('../assets/whatssapppcreampattern.png');
 padding-left: 0 !important;
 padding-right: 0 !important;
+
+position: relative;
 
 }
 /* .coversation-details::before {

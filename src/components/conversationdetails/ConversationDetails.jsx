@@ -7,9 +7,9 @@ export default function ConversationDetails() {
   return (
     <>
     <HeaderConversation/>
-    <div className='conversation-container'>
+    {<div className='conversation-container'>
     <Conversation/>
-    </div>
+    </div>}
     <SendMessageInput/>
     </>
   )

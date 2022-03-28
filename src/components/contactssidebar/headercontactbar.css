@@ -1,7 +1,10 @@
 .header-with-profile{
     background-color: #ededed;
-    width: 100%;
+    width: calc(100% - 15px);
     height: 4.2rem;
+    position:absolute;
+    top:0px;
+    
 }
 .header-icons{
     cursor: pointer;
@@ -13,13 +16,15 @@
     display: block;
     align-items: center;
     height: 2.5rem;
-    position:relative;
+    position:absolute;
     background-color: #ededed;
     width: 90%;
-    margin: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 1rem 0.5rem 1.2rem;
     border-radius: 10px;
+    top:4.2rem;
+    
+    
+    
 }
 
 .search-contact-input{

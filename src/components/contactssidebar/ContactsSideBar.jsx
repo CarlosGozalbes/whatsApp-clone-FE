@@ -4,8 +4,8 @@ import HeaderContactBar from './HeaderContactBar'
 export default function ContactsSideBar() {
   return (
     <div>
-        <HeaderContactBar/>
-        <ConversationsList/>
+        {<HeaderContactBar/>}
+        {<ConversationsList/>}
     </div>
   )
 }

@@ -10,9 +10,9 @@ function MainPage() {
         <Col fluid md={4} className="contacts-side-bar">
           <ContactsSideBar />
         </Col>
-        <Col fluid md={8} className="coversation-details">
+        {<Col fluid md={8} className="coversation-details">
             <ConversationDetails />          
-        </Col> 
+        </Col> }
       </Row>
     </>
   );

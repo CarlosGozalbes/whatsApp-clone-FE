@@ -2,11 +2,15 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from './pages/MainPage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" exact element={<MainPage />} />
+        <Route path="/login" exact element={<LoginPage />} />
+        <Route path="/" exact element={<MainPage />} />
+        <Route path="/register" exact element={<RegisterPage />} />
       </Routes>
     </Router>
   );

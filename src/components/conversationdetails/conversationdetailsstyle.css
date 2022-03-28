@@ -1,6 +1,9 @@
 .header-conversation-container{
     width: 100%;
     background-color: #ededed;
+    position:absolute;
+    top:0px
+
 }
 
 .contact-icons{
@@ -20,10 +23,15 @@
     display: flex;
     flex-direction: column;
     width:100%;
-    height: calc(100%- 8.2rem);
+    /* max-height: calc(100%- 8.2rem); */
     padding-left: 6rem;
     padding-right: 6rem;
     overflow-y: auto;
+    position: absolute;
+    top: 4.2rem;
+    bottom: 5rem;
+    
+
 }
 
 
