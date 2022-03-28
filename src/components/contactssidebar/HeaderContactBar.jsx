@@ -14,17 +14,21 @@ export default function HeaderContactBar() {
             height={50}
             className=" mx-3 my-2"
           />
-          <span>Beta</span>
+          <span>My Name</span>
         </div>
         <div className="header-options align-self-center pb-2 mr-3">
-          <BsFullscreen className="mr-3 header-icons" />
-          <BsPlusLg className="mr-3 header-icons" />
-          <BsThreeDots className="header-icons" />
+          <BsFullscreen className="mr-4 header-icons" />
+          <BsPlusLg className="mr-4 header-icons" />
+          <BsThreeDots className=" mr-4 header-icons" />
         </div>
       </header>
       <div className="input-search-contact-container">
-        <BsSearch className='ml-3'/>
-        <input type="text" placeholder="search a chat or start a new one" className='search-contact-input'/>
+        <BsSearch className="ml-3" />
+        <input
+          type="text"
+          placeholder="search a chat or start a new one"
+          className="search-contact-input"
+        />
       </div>
     </>
   );
