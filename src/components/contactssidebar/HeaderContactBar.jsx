@@ -23,7 +23,7 @@ export default function HeaderContactBar() {
         </div>
       </header>
       <div className="input-search-contact-container">
-        <BsSearch className="ml-3" />
+        <BsSearch className="ml-4" />
         <input
           type="text"
           placeholder="search a chat or start a new one"
