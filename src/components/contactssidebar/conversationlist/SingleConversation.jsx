@@ -19,10 +19,7 @@ export default function SingleConversation() {
             <span className="last-message-date  pt-1">fecha</span>
           </div>
           <span className="preview-truncate-message">
-            mensaje Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Totam aut velit ipsam nostrum optio placeat impedit esse suscipit
-            magni id qui praesentium sit eveniet deleniti voluptate hic, officia
-            asperiores nisi?
+            mensaje sfdfdasfdddddddddddddddddddddddddddddddddsdfafasdf  fdsafadsfasd ffdsafdsa 
           </span>
         </div>
         <div className="message-without-read align-self-end ml-2 mb-3"> 1 </div>

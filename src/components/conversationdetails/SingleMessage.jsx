@@ -7,7 +7,7 @@ export default function SingleMessage() {
         <p>eeeeh q pasaa</p> <span>12:15</span>
       </div>
       <div className="message contact-message d-flex">
-        <p>eeeeh q padsafsfdsafdsfsdadddddddddddddd d  dddddddd dddddd ddasdd ddd ddddddd ddddddddddsdaaffffffffff fdsaa </p> <span>12:15</span>
+        <p>efffffffff fdsaa </p> <span>12:15</span>
       </div>
     </>
   );
