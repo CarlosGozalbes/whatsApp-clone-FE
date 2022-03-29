@@ -50,6 +50,8 @@
     font-size: 0.9rem;
     font-weight: 600;
     max-width: 70ch;
+    overflow-wrap: break-word;
+
 }
 
 .message span {
