@@ -6,13 +6,17 @@ import { Row,Col } from 'react-bootstrap'
 function MainPage() {
   return (
     <>
-      <Row fluid>
-        <Col fluid md={4} className="contacts-side-bar">
+      <Row
+        style={{ maxWidth: "100vw", marginRight: "0px", marginLeft: "0px" }}
+      >
+        <Col md={4} className="contacts-side-bar">
           <ContactsSideBar />
         </Col>
-        {<Col fluid md={8} className="coversation-details">
-            <ConversationDetails />          
-        </Col> }
+        {
+          <Col md={8} className="coversation-details">
+            <ConversationDetails />
+          </Col>
+        }
       </Row>
     </>
   );
